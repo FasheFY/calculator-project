@@ -17,5 +17,10 @@ def divide(a, b):
         return a / b
     else:
         return "Ошибка: деление на ноль"
-print("Простой калькулятор")
+def power(a, b):
+    return a ** b
+def square_root(a):
+    return a ** 0.5
+
+print("Улучшенный калькулятор")
 print("Доступные операции: +, -, *, /")
